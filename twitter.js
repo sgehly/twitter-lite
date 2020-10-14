@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const OAuth = require('oauth-1.0a');
-const Fetch = require('cross-fetch');
+const Fetch = fetch;
 const querystring = require('querystring');
 const Stream = require('./stream');
 
